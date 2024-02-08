@@ -1,6 +1,61 @@
+/*--------------
+    RESET
+--------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*--------------
+    GENERAL
+--------------*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.btn{
+    width: 230px;
+}
+.color{
+    background-color: #0061ff;
+    color: white;
+}
+.btn-top{
+    padding: 5px 10px;
+}
+.btn-bot{
+    width: 300px;
+}
+.btn-main{
+    height: 40px;
+}
+.btn-border{
+    border: 1px solid;
+}
+/*--------------
+    HEADER
+--------------*/
+.head{
+    justify-content: space-between;
+}
+.gap{
+    gap: 20px;
+    padding: 20px 10px;
+}
+/*--------------
+    MAIN
+--------------*/
+main{
+    background-color: #b4d0e7;
+    height: 500px;
+}
+/*--------------
+    FOOTER
+--------------*/
