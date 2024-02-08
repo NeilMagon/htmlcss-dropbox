@@ -46,6 +46,17 @@ button{
     width: 60%;
     transform: translateY(+60px);
 }
+.container-large{
+    max-width: 1200px; 
+    margin: auto;
+}
+.container-small{
+    max-width: 1000px; 
+    margin: auto;
+}
+.col-33{
+    width: calc(100% / 3);
+}
 /*--------------
     HEADER
 --------------*/
@@ -58,14 +69,10 @@ button{
     align-items: center;
 }
 /*--------------
-    MAIN
+    HERO
 --------------*/
 .hero{
     background-color: #b4d0e7;
-}
-.container-large{
-    max-width: 1200px; 
-    margin: auto;
 }
 .container-large h1{
     text-align: center;
@@ -81,6 +88,16 @@ button{
 }
 .col-60 img{
     max-width: 100%;
+}
+/*--------------
+    MAIN
+--------------*/
+.container-small h2{
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.container-small span{
+    padding-right: 50px;
 }
 /*--------------
     FOOTER
