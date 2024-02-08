@@ -76,7 +76,8 @@ button{
 }
 .container-large h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: 90px;
     margin-bottom: 20px;
 }
 .col-40 p{
@@ -95,6 +96,7 @@ button{
 .container-small h2{
     margin-top: 150px;
     margin-bottom: 70px;
+    
 }
 .container-small span{
     padding-right: 50px;
