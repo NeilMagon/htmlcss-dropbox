@@ -11,6 +11,18 @@
 /*--------------
     GENERAL
 --------------*/
+/*--------------
+    TIPOGRAPHY
+--------------*/
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -23,17 +35,17 @@ button{
 .btn{
     width: 230px;
 }
-.color{
+.btn-color{
     background-color: #0061ff;
     color: white;
 }
-.btn-top{
+.btn-padding{
     padding: 5px 10px;
 }
-.btn-bot{
-    width: 300px;
+.btn-width{
+    width: 230px;
 }
-.btn-main{
+.btn-height{
     height: 40px;
 }
 .btn-border{
@@ -56,18 +68,48 @@ button{
 .col-33{
     width: calc(100% / 3 - 20px);
     flex-direction: column;
+    border: 1px solid #d0d0d3;
+    min-height: 950px;
+}
+.margin-20{
+    margin: 20px 0;
 }
 .margin-30{
     margin: 30px 0;
 }
-.top-40{
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-40{
     margin-top: 40px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-bottom-50{
+    padding-bottom: 50px;
 }
 .negative{
     transform: translateY(+80px);
 }
+.padding-20{
+    padding: 20px 0;
+}
 .padding-r-50{
     padding-right: 50px;
+}
+.padding-30{
+    padding: 0 30px;
+}
+li{
+    list-style: none;
+}
+small{
+    display: block;
+}
+hr{
+    max-width: 20%;
+    color: #d0d0d3;
 }
 /*--------------
     HEADER
@@ -88,7 +130,6 @@ button{
 }
 .container-large h1{
     text-align: center;
-    font-size: 80px;
     margin-top: 90px;
 }
 .col-30 > p{
@@ -106,14 +147,16 @@ button{
 .container-small h2{
     margin-top: 150px;
     margin-bottom: 70px;
-    font-size: 30px;
 }
 .column-center{
     text-align: center;
-    border: 1px solid gray;
+    border-bottom: 1px solid #d0d0d3;
 }
 .column-center i, .column-center span{
     padding: 10px 0;
+}
+#fa-check i{
+    color: #0061ff;
 }
 /*--------------
     FOOTER
