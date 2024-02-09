@@ -54,7 +54,7 @@ button{
     margin: auto;
 }
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     flex-direction: column;
 }
 .margin-30{
@@ -66,22 +66,13 @@ button{
 .negative{
     transform: translateY(+80px);
 }
-.padding-r-25{
-    padding-right: 25px;
-}
-.padding-25{
-    padding: 0 25px;
-}
-.padding-l-25{
-    padding-left: 25px;
-}
 .padding-r-50{
     padding-right: 50px;
 }
 /*--------------
     HEADER
 --------------*/
-.head{
+.sp-between{
     justify-content: space-between;
 }
 .gap{
@@ -97,7 +88,7 @@ button{
 }
 .container-large h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     margin-top: 90px;
 }
 .col-30 > p{
@@ -121,7 +112,8 @@ button{
     text-align: center;
     border: 1px solid gray;
 }
-.col-33 > div{
+.column-center i, .column-center span{
+    padding: 10px 0;
 }
 /*--------------
     FOOTER
