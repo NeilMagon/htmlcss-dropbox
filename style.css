@@ -17,7 +17,7 @@ h2{
     font-size: 40px;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 /*--------------
     GENERAL
@@ -141,6 +141,12 @@ button{
 }
 .padding-20{
     padding: 20px 0;
+}
+.padding-top-40{
+    padding-top: 40px;
+}
+.padding-bottom-80{
+    padding-bottom: 80px;
 }
 .padding-l-50{
     padding-left: 50px;
