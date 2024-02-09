@@ -39,12 +39,11 @@ button{
 .btn-border{
     border: 1px solid;
 }
-.col-40{
+.col-30{
     width: 40%;
 }
 .col-60{
     width: 60%;
-    transform: translateY(+60px);
 }
 .container-large{
     max-width: 1200px; 
@@ -56,6 +55,12 @@ button{
 }
 .col-33{
     width: calc(100% / 3);
+}
+.margin-30{
+    margin: 30px 0;
+}
+.negative{
+    transform: translateY(+80px);
 }
 /*--------------
     HEADER
@@ -76,16 +81,14 @@ button{
 }
 .container-large h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 90px;
-    margin-bottom: 20px;
 }
-.col-40 p{
-    margin: 30px 0;
+.col-30 > p{
+    margin-bottom: 30px;
 }
-.col-40 i{
-    font-size: 50px;
-    margin-top: 70px;
+.col-30 i{
+    font-size: 60px;
 }
 .col-60 img{
     max-width: 100%;
