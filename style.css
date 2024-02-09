@@ -118,6 +118,9 @@ button{
 .margin-top-50{
     margin-top: 50px;
 }
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
 .margin-bottom-50{
     padding-bottom: 50px;
 }
@@ -135,6 +138,9 @@ button{
 }
 .padding-20{
     padding: 20px 0;
+}
+.padding-l-50{
+    padding-left: 50px;
 }
 .padding-r-50{
     padding-right: 50px;
