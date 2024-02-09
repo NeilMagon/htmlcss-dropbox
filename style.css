@@ -224,11 +224,8 @@ button{
 .container-large h1{
     margin-top: 90px;
 }
-.col-40 > p{
-    margin-bottom: 30px;
-}
 .col-40 i{
-    font-size: 60px;
+    font-size: 50px;
 }
 /*--------------
     MAIN
