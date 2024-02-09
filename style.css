@@ -7,10 +7,6 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
-/*--------------
-    GENERAL
---------------*/
 /*--------------
     TIPOGRAPHY
 --------------*/
@@ -23,10 +19,63 @@ h2{
 h3{
     font-size: 30px;
 }
+/*--------------
+    GENERAL
+--------------*/
 .row{
     display: flex;
     flex-wrap: wrap;
 }
+.container-large{
+    max-width: 1200px; 
+    margin: auto;
+}
+.container-small{
+    max-width: 1000px; 
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+small{
+    display: block;
+}
+hr{
+    max-width: 20%;
+    color: #d0d0d3;
+}
+.sp-between{
+    justify-content: space-between;
+}
+.border{
+    border: 1px solid #d0d0d3;
+}
+.border-bottom{
+    border-bottom: 1px solid #d0d0d3;
+}
+.text-center{
+    text-align: center;
+}
+/*--------------
+    COL
+--------------*/
+.col-30{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+.col-33{
+    width: calc(100% / 3 - 20px);
+    flex-direction: column;
+    min-height: 950px;
+}
+.col-100{
+    width: 100%;
+}
+/*--------------
+    BUTTON
+--------------*/
 button{
     border: none;
     cursor: pointer;
@@ -51,26 +100,9 @@ button{
 .btn-border{
     border: 1px solid;
 }
-.col-30{
-    width: 40%;
-}
-.col-60{
-    width: 60%;
-}
-.container-large{
-    max-width: 1200px; 
-    margin: auto;
-}
-.container-small{
-    max-width: 1000px; 
-    margin: auto;
-}
-.col-33{
-    width: calc(100% / 3 - 20px);
-    flex-direction: column;
-    border: 1px solid #d0d0d3;
-    min-height: 950px;
-}
+/*--------------
+    MARGIN
+--------------*/
 .margin-20{
     margin: 20px 0;
 }
@@ -89,8 +121,17 @@ button{
 .margin-bottom-50{
     padding-bottom: 50px;
 }
+.margin-top-150{
+    margin-top: 150px;
+}
 .negative{
     transform: translateY(+80px);
+}
+/*--------------
+    PADDING
+--------------*/
+.padding-10{
+    padding: 10px 0;
 }
 .padding-20{
     padding: 20px 0;
@@ -101,22 +142,9 @@ button{
 .padding-30{
     padding: 0 30px;
 }
-li{
-    list-style: none;
-}
-small{
-    display: block;
-}
-hr{
-    max-width: 20%;
-    color: #d0d0d3;
-}
 /*--------------
     HEADER
 --------------*/
-.sp-between{
-    justify-content: space-between;
-}
 .gap{
     gap: 30px;
     padding: 20px 10px;
@@ -129,7 +157,6 @@ hr{
     background-color: #b4d0e7;
 }
 .container-large h1{
-    text-align: center;
     margin-top: 90px;
 }
 .col-30 > p{
@@ -147,10 +174,6 @@ hr{
 .container-small h2{
     margin-top: 150px;
     margin-bottom: 70px;
-}
-.column-center{
-    text-align: center;
-    border-bottom: 1px solid #d0d0d3;
 }
 .column-center i, .column-center span{
     padding: 10px 0;
