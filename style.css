@@ -55,12 +55,28 @@ button{
 }
 .col-33{
     width: calc(100% / 3);
+    flex-direction: column;
 }
 .margin-30{
     margin: 30px 0;
 }
+.top-40{
+    margin-top: 40px;
+}
 .negative{
     transform: translateY(+80px);
+}
+.padding-r-25{
+    padding-right: 25px;
+}
+.padding-25{
+    padding: 0 25px;
+}
+.padding-l-25{
+    padding-left: 25px;
+}
+.padding-r-50{
+    padding-right: 50px;
 }
 /*--------------
     HEADER
@@ -99,10 +115,13 @@ button{
 .container-small h2{
     margin-top: 150px;
     margin-bottom: 70px;
-    
+    font-size: 30px;
 }
-.container-small span{
-    padding-right: 50px;
+.column-center{
+    text-align: center;
+    border: 1px solid gray;
+}
+.col-33 > div{
 }
 /*--------------
     FOOTER
