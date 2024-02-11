@@ -264,16 +264,35 @@ button{
 }
 .logo-container{
     max-width: calc(100% / 3);
-    flex-direction: column;
+    position: relative;
 }
 .logo-item{
     width: 50%;
+    height: 50%;
 }
 .logo-central{
     background-color: #f5f5f5;
 }
 .logo-central p{
     font-size: 14px;
+}
+.logo-color-green{
+    background-color: #a2d39b;
+}
+.logo-color-lightblue{
+    background-color: #0093ce;
+}
+.logo-color-magenta{
+    background-color: #61082b;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo-color-red{
+    background-color: #ff1c1c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /*--------------
     FOOTER
