@@ -302,10 +302,11 @@ button{
 .hover:hover #block{
     display: none;
 }
-.logo-container{
+.logo-big-container{
     max-width: calc(100% / 3);
-    position: relative;
-    min-height: 640px;
+}
+.logo-container{
+    width: 25%;
 }
 .logo-item{
     width: 50%;
