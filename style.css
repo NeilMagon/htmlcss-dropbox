@@ -308,18 +308,14 @@ button{
 .hover:hover #block{
     display: none;
 }
-.logo-big-container{
-    max-width: calc(100% / 3);
-}
 .logo-container{
-    width: calc(100% / 3)
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    overflow-y: auto;
 }
 .logo-item{
     width: 50%;
     height: 50%;
-}
-.h-640{
-    min-height: 640px;
 }
 .logo-central p{
     font-size: 14px;
