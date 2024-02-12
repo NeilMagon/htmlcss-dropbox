@@ -49,6 +49,7 @@ p{
 }
 li{
     list-style: none;
+    display: flex;
 }
 small{
     display: block;
@@ -68,6 +69,10 @@ small{
 }
 img{
     max-width: 100%;
+}
+li .fa-solid{
+    padding-right: 5px;
+    margin-top: 3px;
 }
 /*--------------
     COL
@@ -257,7 +262,7 @@ button{
     right: 0;
     z-index: 9;
     background-color: #ffff;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #b4d0e7;
 }
 .gap{
     gap: 30px;
