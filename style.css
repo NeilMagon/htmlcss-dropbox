@@ -248,6 +248,13 @@ button{
 /*--------------
     HEADER
 --------------*/
+.top{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #ffff;
+}
 .gap{
     gap: 30px;
     padding: 20px 10px;
