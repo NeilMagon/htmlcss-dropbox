@@ -307,11 +307,14 @@ button{
 #none{
     display: none;
 }
-.hover:hover #none{
+#block{
+    cursor: pointer;
+}
+.hover:active #none{
     display: block;
     cursor: pointer;
 }
-.hover:hover #block{
+.hover:active #block{
     display: none;
 }
 .logo-container{
