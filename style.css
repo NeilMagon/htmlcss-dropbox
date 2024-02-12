@@ -257,6 +257,7 @@ button{
     right: 0;
     z-index: 9;
     background-color: #ffff;
+    border-bottom: 1px solid grey;
 }
 .gap{
     gap: 30px;
