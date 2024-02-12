@@ -28,25 +28,6 @@ p{
 /*--------------
     GENERAL
 --------------*/
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.center{
-    justify-content: center;
-    align-items: center;
-}
-.sp-between{
-    justify-content: space-between;
-}
-.container-large{
-    max-width: 1200px; 
-    margin: auto;
-}
-.container-small{
-    max-width: 1000px; 
-    margin: auto;
-}
 li{
     list-style: none;
     display: flex;
@@ -75,18 +56,43 @@ li .fa-solid{
     margin-top: 3px;
 }
 /*--------------
+    CONTAINER
+--------------*/
+.container-large{
+    max-width: 1200px; 
+    margin: auto;
+}
+.container-small{
+    max-width: 1000px; 
+    margin: auto;
+}
+/*--------------
+    FLEX-ITEM
+--------------*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.sp-between{
+    justify-content: space-between;
+}
+/*--------------
     COL
 --------------*/
+.col-33{
+    width: calc(100% / 3 - 20px);
+    flex-direction: column;
+    min-height: 1100px;
+}
 .col-40{
     width: 40%;
 }
 .col-60{
     width: 60%;
-}
-.col-33{
-    width: calc(100% / 3 - 20px);
-    flex-direction: column;
-    min-height: 1100px;
 }
 .col-100{
     width: 100%;
@@ -134,6 +140,9 @@ button{
 .margin-50{
     margin: 50px 0;
 }
+/*--------------
+    MARGIN-TOP
+--------------*/
 .margin-top-30{
     margin-top: 30px;
 }
@@ -155,6 +164,9 @@ button{
 .margin-top-200{
     margin-top: 200px;
 }
+/*--------------
+    MARGIN-BOT
+--------------*/
 .margin-bottom-20{
     margin-bottom: 20px;
 }
@@ -173,6 +185,9 @@ button{
 .margin-bottom-150{
     margin-bottom: 150px;
 }
+/*--------------
+    NEGATIVE
+--------------*/
 .negative{
     transform: translateY(+80px);
 }
@@ -185,6 +200,12 @@ button{
 .padding-20{
     padding: 20px 0;
 }
+.padding-30{
+    padding: 0 30px;
+}
+/*--------------
+    PADDING-TOP
+--------------*/
 .padding-top-20{
     padding-top: 20px;
 }
@@ -197,6 +218,9 @@ button{
 .padding-top-50{
     padding-top: 50px;
 }
+/*--------------
+    PADDING-BOT
+--------------*/
 .padding-bottom-30{
     padding-bottom: 30px;
 }
@@ -206,6 +230,15 @@ button{
 .padding-bottom-80{
     padding-bottom: 80px;
 }
+/*--------------
+    PADDING-R
+--------------*/
+.padding-r-50{
+    padding-right: 50px;
+}
+/*--------------
+    PADDING-L
+--------------*/
 .padding-l-30{
     padding-left: 30px;
 }
@@ -217,12 +250,6 @@ button{
 }
 .padding-l-120{
     padding-left: 120px;
-}
-.padding-r-50{
-    padding-right: 50px;
-}
-.padding-30{
-    padding: 0 30px;
 }
 /*--------------
     LOGO-COLOR
