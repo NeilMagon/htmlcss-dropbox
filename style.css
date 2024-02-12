@@ -275,6 +275,10 @@ button{
 .col-40 i{
     font-size: 50px;
 }
+.head-nav:hover{
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
 /*--------------
     MAIN
 --------------*/
