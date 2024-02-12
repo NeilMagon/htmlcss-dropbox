@@ -299,6 +299,7 @@ button{
 }
 .hover:hover #none{
     display: block;
+    cursor: pointer;
 }
 .hover:hover #block{
     display: none;
